@@ -172,8 +172,49 @@
 }
  
 
+ .carrera-estudiada{
+    max-width: 1000px;
+    margin: auto;
+
+    --color-1: rgb(17, 1, 1);
+    --color-2: rgb(20, 1, 1);
+    --color-3: rgb(17, 1, 1);
+}
 
 
+.carrera-estudiada >h2,p{
+text-align: center;
+}
+
+.carrera-estudiada >p{
+font-size: 20px;
+    }
+
+
+.container-carrera >p{
+    text-align: center;
+}
+
+.expectativa-container{
+    background-color: #f7f7f7;
+}
+
+.expectativa{
+    max-width: 1000px;
+    margin: auto;
+    --color-1: rgb(17, 1, 1);
+    --color-2: rgb(20, 1, 1);
+    --color-3: rgb(17, 1, 1);
+}
+
+
+.expectativa >h2{
+text-align: center;
+}
+
+.expectativa >h3{
+    text-align: center;
+}
 /*
  *                             Desktop
  */
