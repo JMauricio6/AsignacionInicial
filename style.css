@@ -1,0 +1,78 @@
+/*
+ * Globals
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@600&family=Poppins:ital,wght@0,700;0,800;0,900;1,300;1,400&family=Varela&display=swap');
+
+
+ /*ligth mode*/
+ :root {
+     --color-main: rgb(225, 37, 27);
+     --color-2: rgb(0, 27, 72);
+     --color-3: rgb(255, 251, 244);
+     --color-4: rgb(255, 255, 255);
+     --color-5: rgb(220, 220, 220);
+ 
+     --btn-color: rgb(0, 27, 72);
+     --btn-h: rgb(226, 53, 44);
+     --bg-img: url("../img/hero1.png");
+     --icon: url("../img/moon.png");
+ }
+ 
+ 
+ 
+ /* Dark mode*/
+ .oscuro {
+     --color-main: rgb(6, 6, 6);
+     --color-2: rgb(225, 37, 27);
+ 
+     --btn-color:rgb(25, 25, 25);
+     --btn-h:  rgb(225, 37, 27);
+     --bg-img: url("../img/hero2.png");
+ }
+ 
+ 
+ 
+ /*
+  *                  Movile
+  */
+ 
+ header {
+     background-color: transparent !important;
+ }
+ 
+ .header .navbar {
+     background-color: transparent !important;
+ }
+ 
+ .navbar-collapse {
+     background-color: var(--color-main);
+ }
+ 
+ .navbar-nav a {
+     text-align: center;
+ }
+ 
+ .nav-bg-color {
+     background-color: transparent !important;
+ }
+ 
+ 
+ 
+ .txt-color {
+     color: var(--color-5) !important;
+     font-size: 30px !important
+ }
+ 
+ .nav-link {
+     padding: 0 0 5px 0 !important;
+     color: var(--color-5) !important;
+     border-bottom: 2px solid transparent;
+     transition: 0.4s !important;
+ }
+ 
+ .nav-link:hover {
+     color: var(--color-4) !important;
+     border-bottom-color: var(--color-4);
+ }
+ 
+ 
