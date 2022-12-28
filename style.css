@@ -215,6 +215,51 @@ text-align: center;
 .expectativa >h3{
     text-align: center;
 }
+
+
+.lenguajes{
+    max-width: 1000px;
+    margin: auto;
+    --color-1: rgb(17, 1, 1);
+    --color-2: rgb(20, 1, 1);
+    --color-3: rgb(17, 1, 1);
+}
+
+
+.lenguajes >h2{
+text-align: center;
+}
+
+.lenguajes >h3{
+    text-align: center;
+}
+
+.parrafo{
+    display: inline-block;
+}
+
+
+.fw-container{
+    background-color: #f7f7f7;
+}
+
+.framework{
+    max-width: 1000px;
+    margin: auto;
+    --color-1: rgb(17, 1, 1);
+    --color-2: rgb(20, 1, 1);
+    --color-3: rgb(17, 1, 1);
+}
+
+
+.framework >h2{
+text-align: center;
+}
+
+.framework >h3{
+    text-align: center;
+}
+
 /*
  *                             Desktop
  */
